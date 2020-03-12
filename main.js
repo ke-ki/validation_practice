@@ -55,7 +55,7 @@ $('.valid-text').keyup(function(){
       //successクラスを付ける
       form_g.removeClass('has-error').addClass('has-success');
       //メッセージを表示
-      form_g.find('help-block').text(MSG_OK);
+      form_g.find('.help-block').text(MSG_OK);
     }
     
   });
